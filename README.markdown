@@ -12,7 +12,7 @@ Designed to work with the version of `jspec` that ships with [Johnson](http://gi
 
     $ sudo gem install jbarnette-johnson --source http://gems.github.com
 
-  Then copy this into a test file called `test.js`
+  Then try it out by creating a new jspec test case.  Copy the following code into a test file called `test.js`
 
 
     // this code just prevents you from having to type
