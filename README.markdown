@@ -44,13 +44,12 @@ And run it like so:
   
     $ johnson test.js
 
-<pre>
-Let's go testing
-- should think I'm awesome
-  - awesome should equal awesome (PASS)
-- should work just fine
-  - not going to work should equal miserable failure (FAIL)<div style="color: red">    - F Expected not going to work. Got miserable failure</div>
-</pre>
+<div>Let's go testing</div>
+<div>- should think I'm awesome</div>
+<div>  - awesome should equal awesome (PASS)</div>
+<div>- should work just fine</div>
+<div>  - not going to work should equal miserable failure (FAIL)</div>
+<div style="color: red">    - F Expected not going to work. Got miserable failure</div>
 
 
 ## Known Bugs
