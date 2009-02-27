@@ -20,7 +20,7 @@ color = function(hue, fn, binding){
   }
 }
 
-$.extend(console,{
-  warn:  color('yellow', console.warn, console),
-  error: color('red',    console.error, console)
-})
+// This assumes that console is a top-level object defined
+// by jspec.  Newer versions may require "jspec.console"
+console.warn  = color('yellow', console.warn, console)
+console.error = color('red',    console.error, console)
