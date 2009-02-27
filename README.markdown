@@ -44,13 +44,7 @@ And run it like so:
   
     $ johnson test.js
 
-<div>Let's go testing</div>
-<div>- should think I'm awesome</div>
-<div>  - awesome should equal awesome (PASS)</div>
-<div>- should work just fine</div>
-<div>  - not going to work should equal miserable failure (FAIL)</div>
-<div style="color: red">    - F Expected not going to work. Got miserable failure</div>
-
+![output from 'johnson test.js'](http://img.skitch.com/20090227-knkmcebk9bf8ug7r5fdwkc745c.jpg)
 
 ## Known Bugs
 
