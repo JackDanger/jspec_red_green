@@ -3,7 +3,7 @@
 
 // Johnson has trouble reading escape characters
 // from the Javascript end
-Ruby.require('ruby_escape')
+Ruby.require(Ruby.File.dirname(__FILE__)+'/ruby_escape')
 
 color = function(hue, fn, binding){
   COLORS = {clear: 0, red: 31, green: 32, yellow: 33}
